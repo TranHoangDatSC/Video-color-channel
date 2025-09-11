@@ -1,34 +1,23 @@
-# Video Channel Splitter with Icon Overlay
+🎥 Video Channel Splitter with 🖼️ Icon Overlay
+📌 Introduction
+This script reads a video file (input.mkv), overlays an icon (icon.png) on each frame, and displays them side by side:
 
-## Giới thiệu
+🖼️ Original video (with icon overlay)
+🔴 Red channel
+🟢 Green channel
+🔵 Blue channel
 
-Script này đọc một video (`input.mkv`), chèn một icon (`icon.png`) lên video, sau đó hiển thị song song:
+Use cases:
++ Practice with image/video processing using OpenCV.
++ Demonstrate how to split color channels.
++ Show how to overlay a small image on a video.
 
-- Video gốc (có icon)
-- Kênh màu đỏ (Red Channel)
-- Kênh màu xanh lá (Green Channel)
-- Kênh màu xanh dương (Blue Channel)
+⚙️ Technologies Used
++ OpenCV (cv2) → video I/O, resize, channel splitting.
++ Matplotlib → real-time frame visualization.
++ NumPy → pixel matrix operations.
++ Pathlib → clean, cross-platform path handling.
 
-Ứng dụng:
-
-- Thực hành xử lý ảnh/video bằng OpenCV.
-- Minh họa cách tách kênh màu.
-- Overlay ảnh nhỏ lên video.
-
----
-
-## Công nghệ sử dụng
-
-- **OpenCV (cv2)**: đọc/ghi video, resize, tách kênh màu.
-- **Matplotlib**: hiển thị frame theo thời gian thực.
-- **NumPy**: xử lý ma trận pixel.
-- **Pathlib**: quản lý đường dẫn file an toàn, đa nền tảng.
-
----
-
-## Cách chạy
-
-1. Cài đặt thư viện:
-   ```bash
-   pip install opencv-python matplotlib numpy
-   ```
+🚀 How to Run
+pip install opencv-python matplotlib numpy
+python main.py
